@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", function () {
         "excited.png",
         "mocking.png",
         "unicorn.png",
-
+        
     ];
 
     for (let i = 2; i < 14; i++) {

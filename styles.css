@@ -17,9 +17,18 @@ header {
     align-items: center;
     text-decoration: none;
     list-style-type: none;
-    height: 7rem;
- 
 }
+
+@media (max-width:1000px){
+    header{
+        flex-direction: column;
+    }
+
+    header img {
+        width: 100%;
+    }
+}
+
 h1 {
     color: #fff;
 }
